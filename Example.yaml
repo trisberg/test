@@ -1,0 +1,13 @@
+apiVersion: test.example.com/v1alpha1
+kind: Example
+metadata:
+  name: mytest
+spec:
+  template:
+    name: myvolume
+    secret:
+      type: array
+      secretName: test-secret
+      items:
+      - key: pasword
+        path: password

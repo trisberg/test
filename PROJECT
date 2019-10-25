@@ -1,0 +1,7 @@
+version: "2"
+domain: example.com
+repo: github.com/trisberg/test
+resources:
+- group: test
+  version: v1alpha1
+  kind: Example

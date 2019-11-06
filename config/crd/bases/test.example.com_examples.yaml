@@ -31,7 +31,7 @@ spec:
           description: ExampleSpec defines the desired state of Example
           properties:
             template:
-              description: Template secret
+              description: Template volume
               properties:
                 awsElasticBlockStore:
                   description: 'AWSElasticBlockStore represents an AWS Disk resource
